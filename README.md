@@ -1,2 +1,2 @@
-# CMPSC497MidtermThis is my branch make your own Hamid 
-ECHO is on.
+This is main branch Hamid make your own
+Please do not push to main until we are done
