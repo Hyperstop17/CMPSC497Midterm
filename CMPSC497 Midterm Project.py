@@ -100,7 +100,3 @@ model.fit(padded_sequences, label_sequences, epochs=25, batch_size=32, validatio
 # Evaluate model
 test_loss, test_acc = model.evaluate(padded_test_sequences, test_label_sequences)
 print(f"Test Accuracy: {test_acc}")
-
-# Make predictions
-predictions = model.predict(padded_test_sequences)
-predicted_labels = np.argmax(predictions, axis=1)
