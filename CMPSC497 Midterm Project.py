@@ -11,7 +11,7 @@ import gensim.downloader as api
 
 #Opening following dataset: https://www.kaggle.com/datasets/sameedatif/tone-analysis on Kaggle
 #I use an outside tool to automatically shuffle the data and allow for randomness to get every label
-dataset_path = "" #Input your filepath here directing to tone_dataset_shuffled.txt
+dataset_path = " " #Input your filepath here directing to tone_dataset_shuffled.txt
 
 dataset = open(dataset_path, encoding="utf8")
 training_data = []
